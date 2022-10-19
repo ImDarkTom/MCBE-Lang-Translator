@@ -1,11 +1,7 @@
 import googletrans
 
-#
-
 def trans(input:str, output:str, filePath:str):
-    #Todo:
-    #-Optimise the id and name splitting
-    
+        
     #Reads the file and gets all lines
     langFile = open(filePath)
     originalText = langFile.readlines()
